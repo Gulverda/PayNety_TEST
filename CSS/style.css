@@ -112,6 +112,25 @@ body{
   margin-top: 65px;
 }
 
+.mission_headline.for_goals h2{
+  color: #E6E6E6;
+  font-size: 55px;
+}
+
+.mission_headline.for_goals p{
+  color: #E6E6E6;
+  font-size: 16px;
+}
+
+.for_goals{
+  max-width: 600px;
+  border-bottom: none !important;
+}
+
+/* .grid-container{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2)
+} */
+
 .content,
 .mission_container,
 .timeline_container,
@@ -294,6 +313,9 @@ nav a:hover {
 }
 
 @media screen and (max-width: 1052px) {
+  .mission_headline.for_goals h2{
+    font-size: 48px;
+  }
 
   .card p {
     line-height: 1.6;
@@ -384,6 +406,17 @@ nav a:hover {
 }
 
 @media screen and (max-width: 834px) {
+  .mission_headline.for_goals h2{
+    font-size: 36px;
+  }
+
+  .mission_headline.for_goals{
+    padding: 0 !important;
+  }
+
+  .jelifish{
+    margin-top: 40px;
+  }
   body{
     padding: 0;
   }
@@ -707,6 +740,8 @@ main {
   object-fit: cover;
   border-radius: 8px;
   padding: 25px;
+  height: 91px;
+  width: 91px;
 }
 
 /* Initial hidden state */
