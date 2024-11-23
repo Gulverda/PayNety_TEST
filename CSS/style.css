@@ -678,7 +678,7 @@ main {
 }
 
 .mission-item{
-  padding: clamp(20px, 5vw, 50px);
+  padding: clamp(20px, 5vw, 20px);
   font-size: 16px;
   font-weight: 300;
 }
@@ -689,10 +689,17 @@ main {
 }
 
 .mission-item p {
-  font-size: 20px;
+  font-size: 14px;
   color: #fff;
-  max-width: 220px;
+  /* max-width: 220px; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   margin-top: 30px;
+}
+
+.mission-item p span{
+  font-weight: bold;
 }
 
 .mission-item img {
