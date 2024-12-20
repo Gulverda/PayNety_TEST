@@ -141,6 +141,7 @@ body{
 .content,
 .mission_container,
 .timeline_container,
+.faq_container,
 .future_plans,
 .about_us{
   max-width: 1440px;
@@ -356,12 +357,12 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   position: absolute;
-  z-index: 0;
+  z-index: -1;
   right: 20px;
   margin-left: 20px;
   /* margin-top: 4px; */
   top: 20px;
-  z-index: 5;
+  /* z-index: 5; */
   font-size: 42px;
   line-height: 100%;
   -webkit-user-select: none;    
@@ -484,6 +485,7 @@ nav a:hover {
   .content,
 .mission_container,
 .timeline_container,
+.faq_container,
 .future_plans,
 .about_us{
   max-width: 1440px;
@@ -847,6 +849,7 @@ main {
   }
 
   .timeline_container{
+    padding: 0 20px;
     margin-top: 80px !important;
   }
 
@@ -856,6 +859,9 @@ main {
 }
 
 @media screen and (max-width: 420px) {
+  .plus{
+    top: 10px;
+  }
   .faq-question label{
     font-size: 14px;
   }
