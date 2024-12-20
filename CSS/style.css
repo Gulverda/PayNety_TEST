@@ -356,6 +356,7 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   position: absolute;
+  z-index: 0;
   right: 20px;
   margin-left: 20px;
   /* margin-top: 4px; */
@@ -762,6 +763,9 @@ main {
 }
 
 @media screen and (max-width: 520px) {  
+  .faq_container{
+    padding: 0 30px;
+  }
   .panel-content img {
     display: none;
   }
@@ -852,6 +856,15 @@ main {
 }
 
 @media screen and (max-width: 420px) {
+  .faq-question label{
+    font-size: 14px;
+  }
+  .panel-content p{
+    font-size: var(--small) !important;
+  }
+  .faq-question {
+    padding: 10px;
+  } 
   .content_text h1{
     font-size: 36px;
   }
